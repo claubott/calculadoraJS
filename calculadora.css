@@ -99,6 +99,12 @@ html {
     opacity: 0;
     width: 48px;
   }
+
+  /* Same as above, modified for fix button */
+  #fix-button {
+    float: none;
+    width: auto;
+  }
   
   /* Same as above, modified for operators */
   .ops:focus::after {
@@ -137,7 +143,7 @@ html {
     -webkit-animation: fadein 4s;
             animation: fadein 4s;
   }
-  
+
   /* Animations */
   /* Values that appear onclick */
   @-webkit-keyframes zoom {

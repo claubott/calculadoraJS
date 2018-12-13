@@ -1,17 +1,22 @@
 <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <link rel="stylesheet" href="calculadora.css">
+    <link rel="icon" type="image/x-icon" href="Calculator.ico">
+    <title>Calculadora JS</title>
 </head>
 <body>
     <h1>Mi Calculadora JS</h1>
+
+    <div id="fix"></div>
 
     <div id="calculator" class="calculator">
 
         <button id="clear" class="clear">C</button>
 
         <div id="viewer" class="viewer">0</div>
-
+        
         <button class="numero" data-numero="7">7</button>
-        <button class="numero" data-numero="8" >8</button>
+        <button class="numero" data-numero="8">8</button>
         <button class="numero" data-numero="9">9</button>
         <button class="ops">+</button>
 
@@ -30,4 +35,6 @@
         <button id="equals" class="equals">=</button>
         <button class="ops">/</button>
     </div>
+    <div><small>Click sobre el visor convierte el número en negativo.</small></div>
+    <script src="calculadora.js"></script>
 </body>
